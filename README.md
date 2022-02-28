@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project name 
+# OOP school library
 
 > A program that can take a phrase in morse code and decode it
 
@@ -10,14 +10,14 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- have Ruby installed
+- Have Ruby installed
 
 ### Install
-- open your terminal
-- run `git clone git@github.com:disc3110/decode-morse-code-ruby.git`
+- Open your terminal
+- Run `git clone git@github.com:disc3110/decode-morse-code-ruby.git`
 
 ### Usage
 - Run  `ruby morse_code.rb` 
