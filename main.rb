@@ -42,7 +42,7 @@ class App
     choosen_option = 0
 
     until choosen_option.to_i >= 1 && choosen_option.to_i <= 7
-      puts 'Write a number from 1-9 that represent the desire option'
+      puts 'Write a number from 1-7 that represent the desire option'
       choosen_option = gets.chomp
     end
     do_action(choosen_option)

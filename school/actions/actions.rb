@@ -31,10 +31,10 @@ class Actions
     @p_name = gets.chomp
     p('Whats the age of the person?')
     @p_age = gets.chomp
-    p('Has parent permission? [Y/N]')
-    @p_permission = gets.chomp
     case p_role
     when '1'
+      p('Has parent permission? [Y/N]')
+      @p_permission = gets.chomp
       create_student
     when '2'
       create_teacher
@@ -52,8 +52,7 @@ class Actions
   def create_teacher()
     p('What specialization does he/she has?')
     specialization = gets.chomp
-    newperson = Teacher.new(age: @p_age, name: @p_name, parent_permission: @p_permission,
-                            specialization: specialization)
+    newperson = Teacher.new(age: @p_age, name: @p_name, specialization: specialization)
     @people.push(newperson)
     puts "#{newperson.name} has been created"
   end
