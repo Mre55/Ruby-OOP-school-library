@@ -1,9 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# OOP school library
+# Ruby OOP school library
 
-> A program that can take a phrase in morse code and decode it
-
+- A program that can allow user to:
+    > Create a `person` (`teacher` or `student`, not a plain Person).
+    > Create a `book`.
+    > Create a `rental`.
+    > List all `books`.
+    > List all `people`.
+    > List all `rentals` for a given `person` id.
 ## Built With
 
 - Ruby
@@ -17,10 +22,12 @@
 
 ### Install
 - Open your terminal
-- Run `git clone git@github.com:disc3110/decode-morse-code-ruby.git`
+- Run `git@github.com:Mre55/Ruby-OOP-school-library.git`
 
 ### Usage
-- Run  `ruby morse_code.rb` 
+
+- Navigate to the `Ruby-OOP-school-library`
+- Run the main program `ruby main.rb`
 ## Author
 
 👤 **Mihreteab Misganaw Aride**
