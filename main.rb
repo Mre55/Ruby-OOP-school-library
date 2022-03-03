@@ -1,4 +1,4 @@
-require_relative '../school/actions/actions'
+require_relative './school/actions/actions'
 
 class App
   def initialize()
